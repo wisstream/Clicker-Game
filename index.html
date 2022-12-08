@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLICKER BARK</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="displayBPS()">
+    <section class="left_part">
+        <h1 class="box"> CLICKER BARK </h1>
+        <section class="button_box">
+        <div id="berries"> You have 0 berries</div>
+        <div id="bps"> You have 0 bps </div>
+        <img src="https://res.cloudinary.com/teepublic/image/private/s--ExqLa7hW--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_262c3a,e_outline:48/co_262c3a,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1467105853/production/designs/563645_1.jpg" height="90px" width="90px" onclick="addBerries(1)">
+        
+        </section>
+    </section>
+    <section>
+    <table>
+        <caption> Characters statistics </caption>
+        <tr>
+            <th scope="col"> Player </th>
+            <th scope="col"> Bounty (in the manga) </th>
+            <th scope="col"> berry/s </th>
+            <th scope="col"> Cost (berries) </th>
+            <th scope="col"> Options </th>
+        </tr>
+        <tr>
+            <th scope="row"> <img src="https://i.pinimg.com/originals/aa/49/bb/aa49bb254db64149d3b017736065bf62.png" height="50px" width="70px"> Nami </th>
+            <td> 66,000,000 </td>
+            <td> 100 </td>
+            <td> 100 </td>
+            <td>
+                <input type="button" value="Buy" id="1" onclick="buyMinion(0)">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"> <img src="https://i.pinimg.com/originals/b2/6c/61/b26c614cc5765688fb58d65c6a6cd83c.jpg" height="60px" width="65px"> Zoro </th>
+            <td> 320,000,000</td>
+            <td> 2,500 </td>
+            <td> 1,000</td>
+            <td>
+                <input type="button" value="Buy" id="2" onclick="buyMinion(1)">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"> <img src="https://i.skyrock.net/0580/81990580/pics/3112143587_1_5_ROYHJE7J.png" height="70px" width="50px"> Luffy</th>
+            <td> 1,500,000,000 </td>
+            <td> 9,500 </td>
+            <td> 5,000 </td>
+            <td>
+                <input type="button" value="Buy" id="3" onclick="buyMinion(2)">
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"> <img src="https://intrld.com/wp-content/uploads/2021/11/one-piece-shanks.png" height="50px" width="70px"> Shanks </th>
+            <td> 4,000,048,900 </td>
+            <td> 1,000,000 </td>
+            <td> 100,000 </td>
+            <td>
+                <input type="button" value="Buy" id="4" onclick="buyMinion(3)">
+            </td>
+        </tr>
+    </table>
+    </section>
+</body>
+</html>
